@@ -3,7 +3,7 @@ double-rainbow-fpv
 
 Double Rainbow FPV
 
-Hi, thanks for taking a look.  This is primordial code for a dual symmetric 4G FPV control/video/data link.  The RX and TX both run on Android devices, the RX uses USB OTG to connect to an Arduino that outputs ppm to control a normal RC model.  A goal is an affordable, simple, and expandable long range digital FPV link.
+Hi, thanks for taking a look.  This is primordial code for a bidirectional 4G FPV control/video/data link.  The RX and TX both run on Android devices, the RX connects with USB OTG to an Arduino that outputs ppm to control a normal RC model.  A goal is an affordable simple long range digital FPV link.
 
 This is not a proper app yet, not even a beta.  Figured I would share the code to help anyone jump start similar projects (I definitely appreciate all the examples I found out there while getting this working!).
 
@@ -16,7 +16,7 @@ Generally the hardware performed pretty well.  I look forward to getting this in
 Prereqs
 ==================
 
-This requires usb-serial-for-android which can also be found in git hub.  The android project.properties file will likely need to be adjusted to point at the relative location to which you clone usb-serial-for-android.
+This requires usb-serial-for-android which can also be found on github.  The android project.properties file will likely need to be adjusted to point at the relative location to which you clone usb-serial-for-android.
 
 
 Notes
