@@ -9,7 +9,7 @@ Hi, thanks for taking a look.  This is primordial code for a bidirectional 4G FP
 This is not a proper app yet, not even a beta.  Figured I would share the code to help anyone jump start similar projects (I definitely appreciate all the examples I found out there while getting this working!).
 
 Here is a brief ground-based demo:  
-http://youtu.be/94o_GtKqFVs
+http://youtu.be/94o_GtKqFVs?t=3m19s
 
 Generally the hardware performed pretty well.  I look forward to getting this into a normal usable state as time allows.
 
