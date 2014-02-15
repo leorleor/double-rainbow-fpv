@@ -22,7 +22,7 @@ This requires usb-serial-for-android which can also be found on github.  The and
 #### Notes
 
 ##### Its messy in here
-Sorry, the code in here is beyond messy.  Especially sloppy threading which occasionally causes crashes on connection.  I've so far been laser focused on getting all the key pieces working in an end-to-end proof of concept.  I wanted to get an idea of things like how feasible a low latency video link on commodity hardware was, and how phone orientation sensors would handle vibrations.  I did get around to a few cool extras like camera zoom, external sensors, and OSD working along the way.
+Sorry, the code in here is beyond messy.  Especially sloppy threading which occasionally causes crashes on connection.  I've so far taken a quick and dirty approach to getting all the key pieces working in an end-to-end proof of concept.  I wanted to get an idea of things like how feasible a low latency video link on commodity hardware was, and how phone orientation sensors would handle vibrations.  I did get around to a few cool extras like camera zoom, external sensors, and OSD working along the way.
 
 ##### Camera crashes
 The android camera api is not well documented and different devices have quirks, or do not support the hard coded resolutions, and crash.  I have been using a Motorola Razr M, and sometimes a Galaxy Nexus, and rarely a Nexus S (it works at lower resolutions but does not perform well and requires an arduino that can USB host).
