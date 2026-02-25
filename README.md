@@ -4,7 +4,13 @@
 
 Hi, thanks for taking a look.  This is primordial code for a bidirectional 4G FPV control/video/data link.  The RX and TX both run on Android devices, the RX connects with USB OTG to an Arduino that outputs ppm to control a normal RC model.  A goal is an affordable simple long range digital FPV link.
 
-![android app icon](android/ABCD/res/drawable-xhdpi/ic_launcher.png)
+<img height="360" alt="Image of Double Rainbow FPV GUI on a phone on an RC transmitter with plane in background" src="https://github.com/user-attachments/assets/bb9b4833-d372-420c-9707-2127a11b2176" />
+<img height="360" alt="image" src="https://github.com/user-attachments/assets/8aa80e97-04b6-45c9-85ef-4fa45f57c388" />
+
+<!-- 
+![android app icon](android/ABCD/res/drawable-xhdpi/ic_launcher.png) 
+
+-->
 
 This is not a proper app yet, not even a beta.  Figured I would share the code to help anyone jump start similar projects (I definitely appreciate all the examples I found out there while getting this working!).
 
@@ -34,4 +40,4 @@ I plan to switch to firmata to control arduino from android.  It seems to have g
 
 
 #### Peace
-Peace, leorleor
+Peace, Leor
