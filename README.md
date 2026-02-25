@@ -11,7 +11,9 @@ This is not a proper app yet, not even a beta.  Figured I would share the code t
 Here is a brief ground-based demo:  
 http://youtu.be/94o_GtKqFVs?t=7m20s
 
-Generally the hardware performed pretty well.  I look forward to getting this into a normal usable state as time allows.
+It did also fly a few times and successfully used the 4G link for control and lower resolution video.
+
+Generally the hardware performed pretty well.  I look forward to getting this into a normal usable state if time ever allows.
 
 
 #### Prereqs
@@ -22,7 +24,7 @@ This requires usb-serial-for-android which can also be found on github.  The and
 #### Notes
 
 ##### Its messy in here
-Sorry, the code in here is beyond messy.  Especially sloppy threading which occasionally causes crashes on connection.  I've so far taken a quick and dirty approach to getting all the key pieces working in an end-to-end proof of concept.  I wanted to get an idea of things like how feasible a low latency video link on commodity hardware was, and how phone orientation sensors would handle vibrations.  I did get around to a few cool extras like camera zoom, external sensors, and OSD working along the way.
+Sorry, the code in here is messy.  In particular the threading occasionally causes crashes on connection.  I've so far taken a quick and dirty approach to getting all the key pieces working in an end-to-end proof of concept.  I wanted to get an idea of things like how feasible a low latency video link on commodity hardware was, and how phone orientation sensors would handle vibrations.  I did get around to a few cool extras like camera zoom, external sensors, and OSD working along the way.
 
 ##### Camera crashes
 The android camera api is not well documented and different devices have quirks, or do not support the hard coded resolutions, and crash.  I have been using a Motorola Razr M, and sometimes a Galaxy Nexus, and rarely a Nexus S (it works at lower resolutions but does not perform well and requires an arduino that can USB host).
@@ -32,4 +34,4 @@ I plan to switch to firmata to control arduino from android.  It seems to have g
 
 
 #### Peace
-Peace out, leorleor.
+Peace, leorleor
