@@ -12,7 +12,7 @@ Hi, thanks for taking a look.  This is primordial code for a bidirectional 4G FP
 
 -->
 
-This is an alpha release, not polished.  Figured I would share the code early on to help anyone jump start similar projects (I definitely appreciate all the examples I found out there while getting this working!).
+This is an alpha release, not polished.  Figured I would share the code early on to help anyone jump start similar projects (I definitely appreciated all the examples I found out there while getting this working!).
 
 Here is a brief ground-based demo:  
 http://youtu.be/94o_GtKqFVs?t=7m20s
