@@ -31,7 +31,7 @@ This requires usb-serial-for-android library which can also be found on github. 
 
 ##### Strengths
 Some strengths of this implementation are
- - Does a lot to reduce latency for control and video streaming (eg UDP network connection with data packet checks and resyncs, high priority socket for controls vs video, realtime adjustable video resolution and compression)
+ - Does a lot to reduce latency for control and video streaming (eg UDP network connection with data packet checks and resyncs, multiple sockets with high priority socket for controls vs video, realtime adjustable video resolution and compression)
  - Recovers lost connection really well. On the 4g link. Also on the USB connection with Arduino for example in the case of RC system brownouts.
  - Serves as an example of how to use lots of phone sensors (altimeter, GPS, compass, accelerometer, camera).
 
